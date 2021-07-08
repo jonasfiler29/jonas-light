@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F008A8269753A90067EFF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008A7269753A90067EFF6 /* AppDelegate.swift */; };
+		C2F008AA269753A90067EFF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008A9269753A90067EFF6 /* SceneDelegate.swift */; };
+		C2F008AC269753A90067EFF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008AB269753A90067EFF6 /* ViewController.swift */; };
+		C2F008AF269753A90067EFF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F008AD269753A90067EFF6 /* Main.storyboard */; };
+		C2F008B1269753AC0067EFF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F008B0269753AC0067EFF6 /* Assets.xcassets */; };
+		C2F008B4269753AC0067EFF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F008B2269753AC0067EFF6 /* LaunchScreen.storyboard */; };
+		C2F008BF269753AD0067EFF6 /* jonas_lightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008BE269753AD0067EFF6 /* jonas_lightTests.swift */; };
+		C2F008CA269753AD0067EFF6 /* jonas_lightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F008C9269753AD0067EFF6 /* jonas_lightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F008BB269753AD0067EFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F0089C269753A80067EFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F008A3269753A80067EFF6;
+			remoteInfo = "jonas light";
+		};
+		C2F008C6269753AD0067EFF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F0089C269753A80067EFF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F008A3269753A80067EFF6;
+			remoteInfo = "jonas light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2F008A4269753A90067EFF6 /* jonas light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jonas light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F008A7269753A90067EFF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2F008A9269753A90067EFF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2F008AB269753A90067EFF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2F008AE269753A90067EFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F008B0269753AC0067EFF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F008B3269753AC0067EFF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2F008B5269753AC0067EFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F008BA269753AD0067EFF6 /* jonas lightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jonas lightTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F008BE269753AD0067EFF6 /* jonas_lightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jonas_lightTests.swift; sourceTree = "<group>"; };
+		C2F008C0269753AD0067EFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F008C5269753AD0067EFF6 /* jonas lightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jonas lightUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F008C9269753AD0067EFF6 /* jonas_lightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jonas_lightUITests.swift; sourceTree = "<group>"; };
+		C2F008CB269753AD0067EFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F008A1269753A80067EFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F008B7269753AD0067EFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F008C2269753AD0067EFF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F0089B269753A80067EFF6 = {
+			isa = PBXGroup;
+			children = (
+				C2F008A6269753A90067EFF6 /* jonas light */,
+				C2F008BD269753AD0067EFF6 /* jonas lightTests */,
+				C2F008C8269753AD0067EFF6 /* jonas lightUITests */,
+				C2F008A5269753A90067EFF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F008A5269753A90067EFF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F008A4269753A90067EFF6 /* jonas light.app */,
+				C2F008BA269753AD0067EFF6 /* jonas lightTests.xctest */,
+				C2F008C5269753AD0067EFF6 /* jonas lightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F008A6269753A90067EFF6 /* jonas light */ = {
+			isa = PBXGroup;
+			children = (
+				C2F008A7269753A90067EFF6 /* AppDelegate.swift */,
+				C2F008A9269753A90067EFF6 /* SceneDelegate.swift */,
+				C2F008AB269753A90067EFF6 /* ViewController.swift */,
+				C2F008AD269753A90067EFF6 /* Main.storyboard */,
+				C2F008B0269753AC0067EFF6 /* Assets.xcassets */,
+				C2F008B2269753AC0067EFF6 /* LaunchScreen.storyboard */,
+				C2F008B5269753AC0067EFF6 /* Info.plist */,
+			);
+			path = "jonas light";
+			sourceTree = "<group>";
+		};
+		C2F008BD269753AD0067EFF6 /* jonas lightTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F008BE269753AD0067EFF6 /* jonas_lightTests.swift */,
+				C2F008C0269753AD0067EFF6 /* Info.plist */,
+			);
+			path = "jonas lightTests";
+			sourceTree = "<group>";
+		};
+		C2F008C8269753AD0067EFF6 /* jonas lightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F008C9269753AD0067EFF6 /* jonas_lightUITests.swift */,
+				C2F008CB269753AD0067EFF6 /* Info.plist */,
+			);
+			path = "jonas lightUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F008A3269753A80067EFF6 /* jonas light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F008CE269753AD0067EFF6 /* Build configuration list for PBXNativeTarget "jonas light" */;
+			buildPhases = (
+				C2F008A0269753A80067EFF6 /* Sources */,
+				C2F008A1269753A80067EFF6 /* Frameworks */,
+				C2F008A2269753A80067EFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "jonas light";
+			productName = "jonas light";
+			productReference = C2F008A4269753A90067EFF6 /* jonas light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F008B9269753AD0067EFF6 /* jonas lightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F008D1269753AD0067EFF6 /* Build configuration list for PBXNativeTarget "jonas lightTests" */;
+			buildPhases = (
+				C2F008B6269753AD0067EFF6 /* Sources */,
+				C2F008B7269753AD0067EFF6 /* Frameworks */,
+				C2F008B8269753AD0067EFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F008BC269753AD0067EFF6 /* PBXTargetDependency */,
+			);
+			name = "jonas lightTests";
+			productName = "jonas lightTests";
+			productReference = C2F008BA269753AD0067EFF6 /* jonas lightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2F008C4269753AD0067EFF6 /* jonas lightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F008D4269753AD0067EFF6 /* Build configuration list for PBXNativeTarget "jonas lightUITests" */;
+			buildPhases = (
+				C2F008C1269753AD0067EFF6 /* Sources */,
+				C2F008C2269753AD0067EFF6 /* Frameworks */,
+				C2F008C3269753AD0067EFF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F008C7269753AD0067EFF6 /* PBXTargetDependency */,
+			);
+			name = "jonas lightUITests";
+			productName = "jonas lightUITests";
+			productReference = C2F008C5269753AD0067EFF6 /* jonas lightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F0089C269753A80067EFF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C2F008A3269753A80067EFF6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C2F008B9269753AD0067EFF6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C2F008A3269753A80067EFF6;
+					};
+					C2F008C4269753AD0067EFF6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C2F008A3269753A80067EFF6;
+					};
+				};
+			};
+			buildConfigurationList = C2F0089F269753A80067EFF6 /* Build configuration list for PBXProject "jonas light" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F0089B269753A80067EFF6;
+			productRefGroup = C2F008A5269753A90067EFF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F008A3269753A80067EFF6 /* jonas light */,
+				C2F008B9269753AD0067EFF6 /* jonas lightTests */,
+				C2F008C4269753AD0067EFF6 /* jonas lightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F008A2269753A80067EFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F008B4269753AC0067EFF6 /* LaunchScreen.storyboard in Resources */,
+				C2F008B1269753AC0067EFF6 /* Assets.xcassets in Resources */,
+				C2F008AF269753A90067EFF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F008B8269753AD0067EFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F008C3269753AD0067EFF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F008A0269753A80067EFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F008AC269753A90067EFF6 /* ViewController.swift in Sources */,
+				C2F008A8269753A90067EFF6 /* AppDelegate.swift in Sources */,
+				C2F008AA269753A90067EFF6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F008B6269753AD0067EFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F008BF269753AD0067EFF6 /* jonas_lightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F008C1269753AD0067EFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F008CA269753AD0067EFF6 /* jonas_lightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F008BC269753AD0067EFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F008A3269753A80067EFF6 /* jonas light */;
+			targetProxy = C2F008BB269753AD0067EFF6 /* PBXContainerItemProxy */;
+		};
+		C2F008C7269753AD0067EFF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F008A3269753A80067EFF6 /* jonas light */;
+			targetProxy = C2F008C6269753AD0067EFF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F008AD269753A90067EFF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F008AE269753A90067EFF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F008B2269753AC0067EFF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F008B3269753AC0067EFF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F008CC269753AD0067EFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2F008CD269753AD0067EFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F008CF269753AD0067EFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94WNUR6T9;
+				INFOPLIST_FILE = "jonas light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ijonas.jonas-light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F008D0269753AD0067EFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94WNUR6T9;
+				INFOPLIST_FILE = "jonas light/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ijonas.jonas-light";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2F008D2269753AD0067EFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94WNUR6T9;
+				INFOPLIST_FILE = "jonas lightTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ijonas.jonas-lightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jonas light.app/jonas light";
+			};
+			name = Debug;
+		};
+		C2F008D3269753AD0067EFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94WNUR6T9;
+				INFOPLIST_FILE = "jonas lightTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ijonas.jonas-lightTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jonas light.app/jonas light";
+			};
+			name = Release;
+		};
+		C2F008D5269753AD0067EFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94WNUR6T9;
+				INFOPLIST_FILE = "jonas lightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ijonas.jonas-lightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jonas light";
+			};
+			name = Debug;
+		};
+		C2F008D6269753AD0067EFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T94WNUR6T9;
+				INFOPLIST_FILE = "jonas lightUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ijonas.jonas-lightUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "jonas light";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F0089F269753A80067EFF6 /* Build configuration list for PBXProject "jonas light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F008CC269753AD0067EFF6 /* Debug */,
+				C2F008CD269753AD0067EFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F008CE269753AD0067EFF6 /* Build configuration list for PBXNativeTarget "jonas light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F008CF269753AD0067EFF6 /* Debug */,
+				C2F008D0269753AD0067EFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F008D1269753AD0067EFF6 /* Build configuration list for PBXNativeTarget "jonas lightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F008D2269753AD0067EFF6 /* Debug */,
+				C2F008D3269753AD0067EFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F008D4269753AD0067EFF6 /* Build configuration list for PBXNativeTarget "jonas lightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F008D5269753AD0067EFF6 /* Debug */,
+				C2F008D6269753AD0067EFF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F0089C269753A80067EFF6 /* Project object */;
+}
